@@ -1,0 +1,84 @@
+body{
+    max-width: 1440px;
+    font-family: 'Overpass', sans-serif;
+    background: hsl(216, 12%, 8%);
+}
+
+#All {
+    width: 300px;
+    height: 280px;
+    margin: 200px auto;
+    background:hsl(215, 25%, 23%);
+    padding: 40px;
+    color: hsl(0, 0%, 100%) ;
+    border-radius: 25px;
+}
+
+#star-circle {
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color:hsl(216, 19%, 28%);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#num {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color:hsl(216, 19%, 28%);
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+#num:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+#num.selected {
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    transition: background-color 0.3s;
+}
+
+#submit-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+    width: 280px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    color:  hsl(0, 0%, 100%);
+}
+
+#submit-btn.enabled {
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
